@@ -1,7 +1,13 @@
+import { Player } from "video-react";
+import "video-react/dist/video-react.css";
+import "./App.css";
+
 function App() {
   return (
-    <div>
-      <video controls src="http://localhost:3000/video" />
+    <div className="video-container">
+      <Player>
+        <source src="http://localhost:3000/video" />
+      </Player>
     </div>
   );
 }
