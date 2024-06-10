@@ -34,3 +34,14 @@
 .video-container .video-react .video-react-loading-spinner {
     border-top-color: #00bfff;
 }
+
+.video-container-1 {
+    width: 50%;
+    height: 50%;
+  }
+  
+  .video-player-1 {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+  }
+  
